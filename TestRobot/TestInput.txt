@@ -1,0 +1,20 @@
+﻿ MOVE
+ PLACE -1,0,NORTH
+ PLACE -2,-2,NORTH
+    LEFT
+    MOVE
+    RIGHT
+    RIGHT
+    LEFT
+    REPORT
+    PLACE 2,3,WEST
+    RIGHT
+    REPORT
+    MOVE
+    MOVE
+    MOVE
+    MOVE
+    MOVE
+    MOVE
+    LEFT
+    REPORT

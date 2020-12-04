@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Robot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="TestInput.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Robot.cs" />
+    <Resource Include="TestInput.txt" />
+  </ItemGroup>
+
+</Project>
